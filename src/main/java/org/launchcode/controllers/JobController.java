@@ -1,5 +1,6 @@
 package org.launchcode.controllers;
 
+import org.launchcode.models.*;
 import org.launchcode.models.forms.JobForm;
 import org.launchcode.models.data.JobData;
 import org.springframework.stereotype.Controller;
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.validation.Valid;
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * Created by LaunchCode
